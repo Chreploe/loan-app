@@ -8,13 +8,13 @@ Ketika baru pertama kali melakukan git clone, lakukan perintah berikut untuk men
 ```
 npm run serve
 ```
-Untuk menjalankan kode selama development, lakukan perintah berikut.
+Untuk menjalankan kode selama development di local, lakukan perintah berikut.
 
 ### Compiles and minifies for production
 ```
 npm run build
 ```
-Lakukan perintah berikut untuk deployment di vm/server
+Lakukan perintah berikut untuk deployment di vm/server.
 
 ### Lints and fixes files
 ```

@@ -90,13 +90,17 @@
       </button>
     </div>
   </div>
+  <LoanChart/>
 </template>
 
 <script>
 import axios from "axios";
+import LoanChart from "../components/LoanChart.vue"
 export default {
   name: "LoanList",
-  components: {},
+  components: {
+    LoanChart
+  },
   data() {
     return {
       loans: [],
